@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Post Manager</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="post-list"></div>
+    <div id="post-detail"></div>
+  </div>
+
+  <form id="new-post-form">
+    <h3>Create New Post</h3>
+    <input type="text" name="title" placeholder="Title" required>
+    <textarea name="content" placeholder="Content" required></textarea>
+    <input type="text" name="author" placeholder="Author" required>
+    <input type="url" name="image" placeholder="Image URL">
+    <button type="submit">Submit</button>
+  </form>
+
+  <form id="edit-post-form" class="hidden">
+    <h3>Edit Post</h3>
+    <input type="text" id="edit-title" required>
+    <textarea id="edit-content" required></textarea>
+    <button type="submit">Update</button>
+    <button type="button" id="cancel-edit">Cancel</button>
+  </form>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

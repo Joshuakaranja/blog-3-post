@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with JavaScript",
+      "content": "Learn the basics of JavaScript programming.",
+      "author": "Alex Johnson",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "CSS Flexbox Guide",
+      "content": "Master modern layout techniques with Flexbox.",
+      "author": "Maria Garcia",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}
