@@ -1,41 +1,31 @@
-# Anonymous Feedback Wall  
-#### A platform to express anonymous opinions and reactions on trending topics, June 2025  
+# Week 3 Blog Post Code Challenge — Blog Post Manager  
+#### A simple application for managing blog posts — create, read, update, delete via a local API, June 22, 2025  
 #### By **Joshua Karanja**
 
 ## Description  
-This is an interactive web application that allows users to express their thoughts anonymously, especially on trending or sensitive topics discussed in institutions or social platforms.  
-Users can post feedback, update or delete it, react to posts with thumbs up, and search through posts. The goal is to educate, express, and open up honest conversations anonymously.
+This is a simple blog post management application. Users can view the first post immediately when accessing the app and can create, update, and delete posts through a local JSON server API. It’s designed for learning and practicing CRUD operations with a local API.
 
 ## Setup/Installation Requirements  
-* Clone the repository from GitHub:  
-  [https://github.com/Joshuakaranja/anonymous-feedback-site](https://github.com/Joshuakaranja/anonymous-feedback-site)  
-* Open the project folder.  
-* Ensure all files are in the same directory:  
-  `index.html`, `css/styles.css`, `src/index.js`, `db.json`  
-* Run the JSON server locally (optional for local testing):  
-  `json-server --watch db.json`  
-* Open `index.html` in your browser or use VS Code’s Live Server extension.
-
-## Deployed Links  
-* 📂 GitHub Repository: [https://github.com/Joshuakaranja/anonymous-feedback-site](https://github.com/Joshuakaranja/anonymous-feedback-site)
+* Clone this repository to your local machine.  
+* Install JSON Server by running: `npm install json-server@0.17.4`  
+* Start the JSON Server with: `json-server --watch db.json`  
+* Open the HTML file in your browser to use the app.
 
 ## Known Bugs  
-There are no known bugs at the moment.
+There are no known bugs at this time.
 
 ## Technologies Used  
-* HTML5  
-* CSS3  
-* JavaScript (ES6+)  
-* JSON Server  
-* Fetch API  
-* DOM Manipulation  
-* Event Handling
+* HTML  
+* CSS  
+* JavaScript  
+* JSON Server
 
 ## Support and contact details  
-For questions, ideas, bugs or suggestions, please reach out:  
-* GitHub: [@Joshuakaranja](https://github.com/Joshuakaranja)  
-* Email: [jokaranja26@gmail.com](mailto:jokaranja26@gmail.com)
+If you run into any issues or have questions, ideas, or contributions, please feel free to reach out:  
+* GitHub: [joshuakaranja](https://github.com/Joshuakaranja)  
+* Email: jokaranja26@gmail.com
 
 ### License  
-*MIT License*  
+This project is licensed under the **MIT License**.  
+
 Copyright (c) 2025 **Joshua Karanja**
