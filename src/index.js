@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Constants
 const DEFAULT_IMAGE = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPYwxUp3JKC6jOxAZeioI-VF4o_Chj9yF2A&s';
-const API_URL = 'http://localhost:3000/posts';
+const API_URL = 'https://blog-server-hmas.onrender.com/posts';
 
 // 1. Load and display all posts
 const loadPosts = async () => {
