@@ -5,6 +5,9 @@
 ## Description  
 This is a simple blog post management application. Users can view the first post immediately when accessing the app and can create, update, and delete posts through a local JSON server API. It’s designed for learning and practicing CRUD operations with a local API.
 
+## Live API URL  
+Deployed JSON Server: [https://blog-server-hmas.onrender.com/posts](https://blog-server-hmas.onrender.com/posts)
+
 ## Setup/Installation Requirements  
 * Clone this repository to your local machine.  
 * Install JSON Server by running: `npm install json-server@0.17.4`  
